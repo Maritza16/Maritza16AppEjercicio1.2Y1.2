@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSuma1.Vistas.ResultadoCont">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label  Text="{Binding nombre}"
+                HorizontalOptions="CenterAndExpand" FontSize="Title" />
+
+            <Label Text="{Binding apellido}"
+                HorizontalOptions="CenterAndExpand" FontSize="Title" />
+            <Label Text="{Binding edad}" 
+                HorizontalOptions="CenterAndExpand" FontSize="Title" />
+            <Label Text="{Binding correo}" 
+                HorizontalOptions="CenterAndExpand" FontSize="Title" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

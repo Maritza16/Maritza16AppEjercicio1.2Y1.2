@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSuma1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Entry x:Name="txtnum1" Keyboard="Numeric" Placeholder="Numero 1"></Entry>
+
+        <Entry x:Name="txtnum2" Keyboard="Numeric" Placeholder="Numero 2"></Entry>
+
+        <Button Text="Sumar" x:Name="btnagregar" Clicked="btnagregar_Clicked"></Button>
+        
+        <Button Text="Resta" x:Name="btnResta" Clicked="Resta"></Button>
+
+        <Button Text="Multiplicacion" x:Name="btnMul" Clicked="Multiplicacion"></Button>
+
+        <Button Text="Divisiones" x:Name="btnDiv" Clicked="Divisiones"></Button>
+    </StackLayout>
+
+</ContentPage>

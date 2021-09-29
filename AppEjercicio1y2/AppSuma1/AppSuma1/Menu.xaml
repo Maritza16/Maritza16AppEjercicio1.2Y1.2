@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSuma1.Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand"/>
+
+            <Button Text="Operaciones" x:Name="OpPan" Clicked="Pantala2" VerticalOptions="CenterAndExpand"></Button>
+            <Button Text="Contactos" x:Name="OpPanC" Clicked="OpPanC_Clicked" VerticalOptions="CenterAndExpand"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

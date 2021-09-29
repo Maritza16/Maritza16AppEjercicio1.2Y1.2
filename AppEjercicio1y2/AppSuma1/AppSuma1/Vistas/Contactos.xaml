@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSuma1.Vistas.Contactos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre"/>
+            <Entry x:Name="txtname" Keyboard="Text" Placeholder="Ingrese Su Nombre"></Entry>
+            <Label Text="Apellidos"/>
+            <Entry x:Name="txtAp" Keyboard="Text" Placeholder="Ingrese Su Apellido"></Entry>
+            <Label Text="Edad"/>
+            <Entry x:Name="txtEdad" Keyboard="Numeric" Placeholder="Ingrese Su Edad"></Entry>
+            <Label Text="Correo"/>
+            <Entry x:Name="txtCor" Keyboard="Text" Placeholder="Ingrese Su Correo"></Entry>
+            
+            <Button Text="Enviar" x:Name="OpPanC" Clicked="OpPanC_Clicked" VerticalOptions="CenterAndExpand"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
